@@ -28,10 +28,10 @@ Mais informações: http://iot.telefonicabeta.com/kit-iot-wearable/
 - Antes de utilizar a biblioteca escreva o endereço MAC Low Energy de seu kit wearable (disponível na etiqueta atrás da bateria) no arquivo bltAddrWearable com o seguinte formato de exemplo: 00:0E:0B:00:39:AA (você pode utilizar um editor de texto comum caso esteja em um computador convencional ou o comando *vi* no Yocto - altamente não recomendado).
 - Cada um dos scripts disponíveis controla uma função do kit wearable: acelerômetro, sensor de luminosidade, sensor de temperatura, buzzer, LED RGB e botões.
 - IMPORTANTE: Antes de executar qualquer script é preciso habilitar o dispositivo Bluetooth na Intel Galileo! Utilize a seguinte sequência de comandos no terminal, supondo que seu dispositivo Bluetooth esteja endereçado no Linux como *hci0*:
-	$ rfkill unblock all
-	$ hciconfig hci0 up
+	- $ rfkill unblock all
+	- $ hciconfig hci0 up
 - Os scripts são executados pelo comando: 
-	$ python nome_do_script.py [ARGUMENTOS]
+	- $ python nome_do_script.py [ARGUMENTOS]
 - Todos os scripts aceitam o argumento *--h* para exibir um resumo de sua função e um exemplo de utilização
 
 ##5) Referência rápida:
