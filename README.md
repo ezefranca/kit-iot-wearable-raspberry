@@ -10,6 +10,7 @@ Mais informações: http://iot.telefonicabeta.com/kit-iot-wearable/
 - Sistema Intel IoT Developer Kit 1.0 devidamente instalado
 - Dispositivo Bluetooth devidamente instalado e configurado na Intel Galileo
 - Acesso ao terminal do Linux na Intel Galileo (via Ethernet, Wifi, Serial ou PoorMansTelnet)
+- Dispositivo wearable da Telefônica com firmware devidamente instalado
 
 ##2) Dependências
 - Esta biblioteca inclui na pasta *deps* os módulos Python necessários para execução dos scripts:
